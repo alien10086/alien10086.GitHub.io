@@ -10,11 +10,6 @@ layout: base
       <time class="dt-published" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
         {{ page.date | date: date_format }}
       </time>
-      <br>
-      <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
-        <span id="busuanzi_container_page_pv">  
-          本文总阅读量<span id="busuanzi_value_page_pv"></span>次
-        </span>
       
       {%- if page.modified_date -%}
         ~ 
